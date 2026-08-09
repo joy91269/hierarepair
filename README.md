@@ -122,9 +122,19 @@ Citation metadata, including both authors' ORCID identifiers, is provided in
 [`CITATION.cff`](CITATION.cff). A DOI or archival preprint identifier has not
 yet been assigned.
 
-## License status
+## Licensing
 
-No standalone license for the authors' code or aggregate records has yet been
-specified. No rights to third-party raw corpora are granted by this repository.
-The repository is public for inspection and review; a reuse license should be
-added only after an explicit author decision.
+This repository uses scoped dual licensing; no single license applies to every
+file:
+
+- author-created software code is available under the
+  [MIT License](LICENSE-CODE);
+- to the extent the authors hold the relevant rights, author-created aggregate
+  records, aggregate-derived tables and figures, and project documentation are
+  available under [CC BY 4.0](LICENSE-DATA-DOCS);
+- the manuscript PDF, article text and TeX source, and bibliography remain
+  copyright the authors, with no additional reuse license granted here;
+- no rights to third-party raw corpora or other third-party materials are
+  granted.
+
+See the repository-wide [scope notice](LICENSE) before reusing material.

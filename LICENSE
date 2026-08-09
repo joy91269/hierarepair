@@ -1,0 +1,39 @@
+HieraRepair Licensing Notice
+
+Copyright (c) 2026 Jiuyi Zheng and Gan Xu
+
+This repository uses scoped licenses. No single license applies to every file.
+
+1. Authors' software code
+
+Software code authored for this project is licensed under the MIT License in
+LICENSE-CODE. This includes the Python files under scripts/,
+preprint/build_section3.py, manuscript/repro/build_editorial_additions.py, and
+equivalent copies of those files in the distributed archives.
+
+2. Authors' original aggregate data and documentation
+
+To the extent that Jiuyi Zheng and Gan Xu hold the relevant rights, the
+author-created aggregate records, aggregate-derived tables and figures, and
+project documentation are licensed under the Creative Commons Attribution
+4.0 International License (CC BY 4.0), as stated in LICENSE-DATA-DOCS.
+
+3. Manuscript
+
+The manuscript PDF, article text and TeX source, and bibliography remain
+copyright (c) 2026 Jiuyi Zheng and Gan Xu, all rights reserved. This repository
+does not grant an additional reuse license for those materials. Any later
+author, arXiv, or publisher license may state different terms for a particular
+manuscript version.
+
+4. Third-party material
+
+No third-party raw corpus is distributed here, and no rights to any third-party
+dataset, paper, trademark, or other material are granted. Dataset names,
+citations, provenance records, and aggregate measurements do not replace the
+original providers' terms. Obtain third-party corpora from their original
+providers and comply with their licenses and access conditions.
+
+Where a file contains separable material from more than one category, each
+part retains the license assigned to its category. If the applicable category
+is unclear, do not assume permission beyond applicable law.
