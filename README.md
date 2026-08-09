@@ -35,13 +35,20 @@ This is **not** a raw-data end-to-end release. It excludes:
 
 The raw corpora must be obtained from their original providers under their
 respective terms. The recovered Human Know-How loader has an unresolved
-decoding risk, and no corrected-parser raw rerun is available. See
-[`docs/PUBLIC_ARTIFACT_SCOPE.md`](docs/PUBLIC_ARTIFACT_SCOPE.md),
-[`docs/DATA_ACCESS_AND_LICENSE_MATRIX.md`](docs/DATA_ACCESS_AND_LICENSE_MATRIX.md),
-and
-[`docs/SECTION11_HUMAN_KNOWHOW_DECODE_RISK_NOTE.md`](docs/SECTION11_HUMAN_KNOWHOW_DECODE_RISK_NOTE.md).
+decoding risk, and no corrected-parser raw rerun is available. The complete
+scope statement, data-access matrix, and parser-risk note are included under
+`docs/` inside the downloadable companion archive.
 
-## Repository map
+## Downloads
+
+- [`HIERAREPAIR_COMPANION_AGGREGATE_ARTIFACT.zip`](HIERAREPAIR_COMPANION_AGGREGATE_ARTIFACT.zip):
+  complete companion artifact described below.
+- [`HIERAREPAIR_ARXIV_V1_SOURCE.tar.gz`](HIERAREPAIR_ARXIV_V1_SOURCE.tar.gz):
+  standalone manuscript source package.
+- [`hierarepair_arxiv_v1.pdf`](hierarepair_arxiv_v1.pdf): compiled manuscript.
+
+After extracting the companion archive, its top-level `hierarepair/` directory
+has the following layout:
 
 - `raw/phaseB/`: five frozen aggregate JSON records; no raw corpus text.
 - `gates/`, `paper/`, `decisions/`: frozen supporting evidence used by the
@@ -54,8 +61,9 @@ and
 ## Rebuild
 
 Python dependencies for the aggregate builders are listed in
-`requirements-aggregate.txt`. From the repository root, the section builders
-can be run into a separate output directory, for example:
+`requirements-aggregate.txt` inside the companion archive. After extracting
+the archive and entering its `hierarepair/` directory, the section builders can
+be run into a separate output directory, for example:
 
 ```sh
 python3 scripts/build_section4.py --project-root . --output-root /tmp/hierarepair-rebuild
@@ -101,12 +109,12 @@ python3 preprint/build_section3.py \
   --pdftoppm /path/to/pdftoppm
 ```
 
-The environment documented in `docs/AGGREGATE_ENVIRONMENT.md` is the observed
-aggregate-check environment, not the unavailable original raw-pipeline
-environment and not a promise of cross-platform byte identity.
+The environment documented in the archive's `docs/AGGREGATE_ENVIRONMENT.md`
+is the observed aggregate-check environment, not the unavailable original
+raw-pipeline environment and not a promise of cross-platform byte identity.
 
-To compile the paper, follow `manuscript/README_COMPILE.txt` from inside the
-`manuscript/` directory.
+To compile the paper, follow the archive's `manuscript/README_COMPILE.txt` from
+inside the `manuscript/` directory, or use the standalone source package above.
 
 ## Citation
 
