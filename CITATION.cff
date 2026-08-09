@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this aggregate artifact, please cite the accompanying manuscript."
+title: "HieraRepair companion aggregate artifact"
+type: dataset
+authors:
+  - family-names: Zheng
+    given-names: Jiuyi
+    orcid: "https://orcid.org/0009-0004-7497-9685"
+    affiliation: "University of Missouri, Columbia, Missouri, USA"
+  - family-names: Xu
+    given-names: Gan
+    orcid: "https://orcid.org/0009-0005-9955-1965"
+    affiliation: "University of Missouri, Columbia, Missouri, USA"
+repository-code: "https://github.com/joy91269/hierarepair"
+date-released: 2026-08-08
+keywords:
+  - leakage control
+  - hierarchical corpora
+  - connected components
+  - benchmark auditing
+preferred-citation:
+  type: article
+  title: "A Symmetric Layer--Union Audit of Component Collapse in Hierarchical Procedural Corpora"
+  authors:
+    - family-names: Zheng
+      given-names: Jiuyi
+      orcid: "https://orcid.org/0009-0004-7497-9685"
+    - family-names: Xu
+      given-names: Gan
+      orcid: "https://orcid.org/0009-0005-9955-1965"
+  year: 2026
